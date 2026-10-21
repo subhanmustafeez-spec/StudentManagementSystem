@@ -22,7 +22,7 @@ public class Main {
         currentEnrollment.printEnrollmentSummary();
 // Processing Fee Payment via Interface
         System.out.println("\n[System] Initiating Fee Payment...");
-        PaymentMethod payment = new CreditCardPayment("9823-3466-8374-9333");
+        PaymentMethod payment = new CreditCardPayment("5678-2352-3242-4565");
         boolean paymentSuccess = payment.pay(69000.00);
         if (paymentSuccess) {
             currentEnrollment.completeEnrollment();
