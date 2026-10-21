@@ -5,6 +5,23 @@ public class Enrollment {
     private final Student student;
     private final Course course;
     private boolean isPaid;
+
+    public Student getStudent() {
+        return student;
+    }
+
+    public Course getCourse() {
+        return course;
+    }
+
+    public boolean isPaid() {
+        return isPaid;
+    }
+
+    public void setPaid(boolean paid) {
+        isPaid = paid;
+    }
+
     public Enrollment(Student student, Course course) {
         this.student = student;
         this.course = course;

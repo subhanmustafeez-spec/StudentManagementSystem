@@ -12,8 +12,8 @@ public class Main {
         System.out.println("STUDENT MANAGEMENT SYSTEM INITIALIZED");
                 System.out.println("==========================================");
 // Instantiating Student and Course objects
-        Student student1 = new Student("SE-02064", "Talha Imtiaz",
-                "f24bseen1e02064@iub.edu.pk");
+        Student student1 = new Student("SE-02093", "Subhan Mustafeez",
+                "f24bseen1e02093@iub.edu.pk");
         Course course1 = new Course("SE-301", "Software Construction", 4);
         student1.displayProfile();
         course1.displayCourseInfo();
@@ -23,7 +23,7 @@ public class Main {
 // Processing Fee Payment via Interface
         System.out.println("\n[System] Initiating Fee Payment...");
         PaymentMethod payment = new CreditCardPayment("9823-3466-8374-9333");
-        boolean paymentSuccess = payment.pay(12000.00);
+        boolean paymentSuccess = payment.pay(69000.00);
         if (paymentSuccess) {
             currentEnrollment.completeEnrollment();
             currentEnrollment.printEnrollmentSummary();

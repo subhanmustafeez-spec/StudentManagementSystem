@@ -21,4 +21,5 @@ public class Course {
         System.out.println("[Course] " + courseCode + " - " + courseTitle + " (" +
                 creditHours + " Credit Hours)");
     }
+
 }
